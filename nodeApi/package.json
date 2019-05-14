@@ -1,0 +1,35 @@
+{
+    "name": "ticlet",
+    "version": "1.0.0",
+    "description": "RESTfull API",
+    "main": "app/www/server.js",
+    "scripts": {
+        "start": "node app/www/server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Mrugaya Tari",
+    "dependencies": {
+        "async": "^2.6.1",
+        "base64-to-image": "^1.0.2",
+        "connect-multiparty": "^2.0.0",
+        "express": "~4.16.0",
+        "fcm-node": "^1.3.0",
+        "fs": "0.0.1-security",
+        "http": "0.0.0",
+        "jsonwebtoken": "^8.5.1",
+        "jwt-simple": "^0.5.6",
+        "moment": "^2.22.2",
+        "msg91-sms": "^1.0.1",
+        "mysql2": "^1.6.4",
+        "node-mailjet": "^3.3.1",
+        "nodemon": "^1.18.7",
+        "passport": "^0.4.0",
+        "passport-jwt": "^4.0.0",
+        "qrcode": "^1.3.3",
+        "request": "^2.88.0",
+        "sequelize": "^4.41.2",
+        "sequelize-cli": "^5.4.0",
+        "sharp": "^0.21.1",
+        "underscore": "^1.9.1"
+    }
+}
